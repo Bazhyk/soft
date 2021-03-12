@@ -7,3 +7,5 @@ apt-get update -y
 apt-get install jenkins -y
 echo "Password to jenkins "
 cat  /var/lib/jenkins/secrets/initialAdminPassword
+echo "Public ip for connect"
+ wget -qO- ipinfo.io/ip
